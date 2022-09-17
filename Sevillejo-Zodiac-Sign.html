@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>  
+
+<body>
+<h>Activity 2</h>
+
+<p id="num"></p>
+<script>
+
+let myBirthday = "February";
+let day = 28;
+
+
+switch (myBirthday) {
+
+ case "January":
+ if (day<20){
+	myBirthday = "Capricorn";
+ }
+ else{
+	(day>20)
+	myBirthday = "Aquarius";
+   }
+    break;
+  case "February":
+   if (day<19){
+	myBirthday = "Aquarius";
+ }
+ else{
+	(day>19)
+	myBirthday = "Pisces";
+   }
+   
+    break;
+  case "March":
+   if (day<21){
+	myBirthday = "Pisces";
+ }
+ else{
+	(day>21)
+	myBirthday = "Aries";
+   }
+    
+    break;
+  case "April":
+   if (day<20){
+	myBirthday = "Aries";
+ }
+ else{
+	(day>20)
+	myBirthday = "Taurus";
+   }
+   
+    break;
+  case "May":
+   if (day<21){
+	myBirthday = "Taurus";
+ }
+ else{
+	(day>21)
+	myBirthday = "Gemini";
+   }
+  
+    break;
+  case "June":
+   if (day<22){
+	myBirthday = "Gemini";
+ }
+ else{
+	(day>22)
+	myBirthday = "Cancer";
+   }
+  
+    break;
+  case "July":
+   if (day<23){
+	myBirthday = "Cancer";
+ }
+ else{
+	(day>23)
+	myBirthday = "Leo";
+   }
+   
+	 break;
+  case "August":
+   if (day<23){
+	myBirthday = "Leo";
+ }
+ else{
+	(day>23)
+	myBirthday = "Virgo";
+   }
+   
+	 break;
+  case "September":
+   if (day<23){
+	myBirthday = "Virgo";
+ }
+ else{
+	(day>23)
+	myBirthday = "Libra";
+   }
+  
+	 break;
+  case "October":
+   if (day<24){
+	myBirthday = "Libra";
+ }
+ else{
+	(day>24)
+	myBirthday = "Scorpion";
+   }
+   
+	 break;
+  case "November":
+   if (day<22){
+	myBirthday = "Scorpion";
+ }
+ else{
+	(day>22)
+	myBirthday = "Sagittarius";
+   }
+   
+	 break;
+  case "December":
+   if (day<22){
+	myBirthday = "Sagittarius";
+ }
+ else{
+	(day>22)
+	myBirthday = "Capricorn";
+   }
+    
+}
+document.getElementById("num").innerHTML = "February 28 is "+myBirthday;
+
+
+
+
+
+
+
+</script>
+
+
+</body>
+
+
+</html>
