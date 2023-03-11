@@ -23,7 +23,7 @@ public class MainActivity3 extends AppCompatActivity {
         Log.e(TAG, "This is an error log");
 
 
-        Button button = (Button) findViewById(R.id.buttonA);
+        Button button = (Button) findViewById(R.id.button4);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
