@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- action buttons for search -->
+    <item
+        android:id="@+id/search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:orderInCategory="101"
+        android:title="search"
+        app:showAsAction="ifRoom" />
+
+    <!-- action button for refresh -->
+    <item
+        android:id="@+id/refresh"
+        android:icon="@android:drawable/ic_menu_rotate"
+        android:orderInCategory="100"
+        android:title="refresh"
+        app:showAsAction="ifRoom" />
+
+    <!-- action button for copy -->
+    <item
+        android:id="@+id/copy"
+        android:icon="?attr/actionModeCopyDrawable"
+        android:orderInCategory="100"
+        android:title="copy"
+        app:showAsAction="never" />
+</menu>
